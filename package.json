@@ -1,0 +1,23 @@
+{
+  "name": "READMEgen",
+  "version": "1.0.0",
+  "description": "High-quality professional README generator using command-line prompts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeSweats/READMEgen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeSweats/READMEgen/issues"
+  },
+  "homepage": "https://github.com/codeSweats/READMEgen#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}

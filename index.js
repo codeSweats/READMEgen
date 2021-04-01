@@ -57,10 +57,18 @@ const questions = [
 ];
 
 // fs write file method with path method passed as argument
-function writeToFile (fileName, data) {}
+function writeToFile (fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // Declaring function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((response) => {
+    console.log('Generating README Now!');
+    writeToFile('README.md', generateMarkdown({... response}))
+});
+}
 
 // Function call to initialize app
 init();

@@ -18,14 +18,63 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'None'){
     return `## License
-    This project license under ${license} license`;
+    This project is licensed under the ${license} license`;
   }
   return '';
 }
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.Title}
+return `# ${data.Title}
+${renderLicenseBadge(data.License)}
+## Description
+
+${data.Description}
+
+## Table of Contents
+
+* [Installation](#Installation)
+
+* [Usage](#Usage)
+${renderLicenseLink(data.License)}
+
+* [Contributions](#Contributions)
+
+* [Tests](#Tests)
+
+* [Questions](#Questions)
+
+## Installation
+
+To install necessary dependencies, run the following command: 
+
+\`\`\`
+${data.Installation}
+\`\`\`
+
+## Usage
+
+${data.Usage}
+
+${renderLicenseSection(data.License)}
+
+## Contributions
+
+${data.Contributions}
+
+## Tests
+
+To run tests, run the following command:
+
+\`\`\`
+${data.Tests}
+\`\`\`
+
+## Questions
+
+If you have any questions about the repo, contact me here: 
+
+${data.Email}. You can find more of my work at [{data.GitHub}](https://github.com/${data.GitHub}/).
 
 `;
 }

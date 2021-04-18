@@ -1,4 +1,4 @@
-# README.md Generator 
+# README.md Generator
 ![gitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
 
@@ -21,7 +21,7 @@ To expedite the process of creating a high-quality README file for any open-sour
 
 ## Installation
 
-To install necessary dependencies, run the following command: 
+To install the necessary dependencies, run the following command: 
 
 ```
 From your command-line, type "npm init -y", hit "enter", then type "npm i inquirer", and then hit "enter". The node package should be installed with the inquirer dependency.
@@ -29,7 +29,10 @@ From your command-line, type "npm init -y", hit "enter", then type "npm i inquir
 
 ## Usage
 
-Follow the on-screen prompts, and upon entry of the last input, the user will see the success message "Generating README Now!". 
+Follow the on-screen prompts, and upon entry of the last input, the user will see the success message "Generating README Now!".
+
+Walk-thru Video
+https://drive.google.com/file/d/1ZgN3D7J6gXA2cvw3RmYyXiwPOlDCmkJQ/view
 
 ## License
     This project is licensed under the MIT license

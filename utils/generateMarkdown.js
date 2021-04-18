@@ -46,7 +46,7 @@ ${renderLicenseLink(data.License)}
 
 ## Installation
 
-To install necessary dependencies, run the following command: 
+To install the necessary dependencies, run the following command: 
 
 \`\`\`
 ${data.Installation}

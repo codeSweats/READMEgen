@@ -30,7 +30,7 @@ const questions = [
     choices: ['MIT', 'BSD 3', 'APACHE 2.0', 'None'],
     },
     {
-    message: 'What is the comment to run the test?',
+    message: 'What is the command to run the test?',
     name: 'Tests',
     default: 'npm test',
     },
